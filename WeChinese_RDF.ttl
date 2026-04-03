@@ -1,0 +1,1171 @@
+@prefix : <http://example.com/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wechi: <https://example.org/wechinese/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+wechi:bb0420000x  schema:url  <https://wechineseus.com/> ;
+        schema:sameAs  wd:Q115044524 ;
+        schema:name    "We Chinese in America Magazine"@en ;
+        rdf:type       schema:CreativeWork .
+
+wechi:p-geesch   rdf:type  schema:Person ;
+        schema:name           "Gee-Schweiger, Maria Lixian"@en , "李岘"@zh-Hans , "李峴"@zh-Hant ;
+        schema:alternateName  "Gee-Schweiger, Maria"@en , "Li, Xian"@en ;
+        schema:sameAs         <https://lccn.loc.gov/no2003054130> , wd:Q113991352 ;
+        schema:hasOccupation  "Authors"@en , "Television producers and directors"@en ;
+        schema:subjectOf      wechi:bb5949066p , wechi:bb7826212c , wechi:bb72801334 , wechi:bb9908145z .
+
+wechi:bb5949066p  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb5949066p> ;
+        schema:datePublished  "2007-12"^^xsd:gYearMonth ;
+        schema:volumeNumber   "7"^^xsd:int ;
+        schema:issueNumber    "75"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 7 Issue 75"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb7826212c  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb7826212c> ;
+        schema:datePublished  "2001-10"^^xsd:gYearMonth ;
+        schema:volumeNumber   "1"^^xsd:int ;
+        schema:issueNumber    "1"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 1 Issue 1"@en ;
+        rdf:type              schema:CreativeWork .
+        
+wechi:bb72801334  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb72801334> ;
+        schema:datePublished  "2004-09"^^xsd:gYearMonth ;
+        schema:volumeNumber   "3"^^xsd:int ;
+        schema:issueNumber    "36"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 3 Issue 36"@en ;
+        rdf:type              schema:CreativeWork .
+        
+wechi:bb9908145z  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb9908145z> ;
+        schema:datePublished  "2003-01"^^xsd:gYearMonth ;
+        schema:volumeNumber   "2"^^xsd:int ;
+        schema:issueNumber    "16"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 2 Issue 16"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/no2003054130>
+        schema:name  "Li, Xian, 1959-"@en .
+
+wechi:p-cheara  schema:name   "谢国民"@zh-Hans ;
+        schema:alternateName  "Chia, Kok Min"@en ;
+        schema:sameAs         wd:Q731705 ;
+        rdf:type              schema:Person ;
+        schema:hasOccupation  "Executives"@en ;
+        schema:name           "Chearavanont, Dhanin"@en ;
+        schema:subjectOf      wechi:bb0454136q ;
+        schema:sameAs         <https://lccn.loc.gov/n98922153> ;
+        schema:name           "謝國民"@zh-Hant ;
+        schema:alternateName  "Xie, Guomin"@en .
+
+wechi:bb46179939  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb46179939> ;
+        schema:datePublished  "2005-08"^^xsd:gYearMonth ;
+        schema:issueNumber    "47"^^xsd:int ;
+        schema:volumeNumber   "4"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 4 Issue 47"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/n80063799>
+        schema:name  "Tsuang, Ming T., 1931-"@en .
+
+<https://lccn.loc.gov/nr91003625>
+        schema:name  "Tan, Dun, 1957-"@en .
+
+<https://lccn.loc.gov/nr96014884>
+        schema:name  "Liu, Lirong"@en .
+
+wechi:p-maaoni  schema:subjectOf  wechi:bb2126503s ;
+        schema:hasOccupation  "Actresses"@en ;
+        schema:sameAs         wd:Q114697839 ;
+        schema:name           "马奥妮"@zh-Hans ;
+        schema:name           "Ma, Aoni"@en ;
+        schema:name           "馬奥妮"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:bb0010444z  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb0010444z> ;
+        schema:datePublished  "2002-10"^^xsd:gYearMonth ;
+        schema:issueNumber    "13"^^xsd:int ;
+        schema:volumeNumber   "2"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 2 Issue 13"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/nr96045351>
+        schema:name  "Zhuo, Yiding"@en .
+
+<https://lccn.loc.gov/n81049468>
+        schema:name  "Yau, Shing-Tung, 1949-"@en .
+
+wechi:p-changy  schema:subjectOf  wechi:bb3286929k ;
+        schema:hasOccupation  "College teachers"@en ;
+        schema:sameAs         <https://lccn.loc.gov/no2011081684> ;
+        schema:alternateName  "Zhang, Yingying"@en ;
+        schema:name           "张盈盈"@zh-Hans ;
+        schema:name           "Chang, Ying-Ying"@en ;
+        schema:name           "張盈盈"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:p-linshi  schema:subjectOf  wechi:bb71094858 ;
+        schema:hasOccupation  "Board gamers"@en ;
+        schema:sameAs         wd:Q107269899 ;
+        schema:alternateName  "Lin, Xuefen"@en ;
+        schema:name           "林雪芬"@zh-Hans ;
+        schema:name           "Lin, Shirley"@en ;
+        schema:name           "林雪芬"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:p-guoluy  schema:subjectOf  wechi:bb0829561p ;
+        schema:hasOccupation  "Cellists"@en ;
+        schema:sameAs         <https://lccn.loc.gov/n99015516> ;
+        schema:alternateName  "Guo, Luyan"@en ;
+        schema:name           "郭律严"@zh-Hans ;
+        schema:name           "Guo, Lu-Yan"@en ;
+        schema:name           "郭律嚴"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:bb75873062  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb75873062> ;
+        schema:datePublished  "2007-01"^^xsd:gYearMonth ;
+        schema:issueNumber    "64"^^xsd:int ;
+        schema:volumeNumber   "6"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 6 Issue 64"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/no2008140281>
+        schema:name  "Wang, Junwen, 1956-"@en .
+
+wechi:bb6563402q  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb6563402q> ;
+        schema:datePublished  "2003-05"^^xsd:gYearMonth ;
+        schema:issueNumber    "20"^^xsd:int ;
+        schema:volumeNumber   "2"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 2 Issue 20"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb5744291p  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb5744291p> ;
+        schema:datePublished  "2011-11"^^xsd:gYearMonth ;
+        schema:issueNumber    "122"^^xsd:int ;
+        schema:volumeNumber   "11"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 11 Issue 122"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-lindan  schema:subjectOf  wechi:bb0522399f ;
+        schema:hasOccupation  "Motion picture producers and directors"@en ;
+        schema:sameAs         wd:Q5213883 ;
+        schema:sameAs         <https://lccn.loc.gov/no2010068740> ;
+        schema:alternateName  "Lin, Wei"@en ;
+        schema:name           "林暐"@zh-Hans ;
+        schema:name           "Lin, Dan"@en ;
+        schema:name           "林暐"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:bb2126503s  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb2126503s> ;
+        schema:datePublished  "2005-05"^^xsd:gYearMonth ;
+        schema:issueNumber    "44"^^xsd:int ;
+        schema:volumeNumber   "4"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 4 Issue 44"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb97716238  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb97716238> ;
+        schema:datePublished  "2004-11"^^xsd:gYearMonth ;
+        schema:issueNumber    "38"^^xsd:int ;
+        schema:volumeNumber   "4"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 4 Issue 38"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/n91021233>
+        schema:name  "Ling, Jahja, 1951-"@en .
+
+wechi:bb79968672  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb79968672> ;
+        schema:datePublished  "2005-04"^^xsd:gYearMonth ;
+        schema:issueNumber    "43"^^xsd:int ;
+        schema:volumeNumber   "4"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 4 Issue 43"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb96692321  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb96692321> ;
+        schema:datePublished  "2005-02"^^xsd:gYearMonth ;
+        schema:issueNumber    "41"^^xsd:int ;
+        schema:volumeNumber   "4"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 4 Issue 41"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb0522399f  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb0522399f> ;
+        schema:datePublished  "2012-11"^^xsd:gYearMonth ;
+        schema:issueNumber    "134"^^xsd:int ;
+        schema:volumeNumber   "12"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 12 Issue 134"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-changi  rdf:type      schema:Person ;
+        schema:name           "張純如"@zh-Hant ;
+        schema:name           "张纯如"@zh-Hans ;
+        schema:subjectOf      wechi:bb5607762c ;
+        schema:sameAs         wd:Q234338 ;
+        schema:alternateName  "Zhang, Chunru"@en ;
+        schema:subjectOf      wechi:bb3286929k ;
+        schema:sameAs         <https://lccn.loc.gov/n95074518> ;
+        schema:hasOccupation  "Authors"@en ;
+        schema:name           "Chang, Iris"@en .
+
+wechi:p-chupao  schema:sameAs  <https://lccn.loc.gov/n82228970> ;
+        rdf:type              schema:Person ;
+        schema:subjectOf      wechi:bb50275599 ;
+        schema:alternateName  "Chu, Pao-chin"@en ;
+        schema:name           "Chu, Paochin"@en ;
+        schema:alternateName  "朱葆晉"@zh-Hant ;
+        schema:alternateName  "朱葆晋"@zh-Hans ;
+        schema:hasOccupation  "Retired teachers"@en ;
+        schema:alternateName  "Zhu, Baojin"@en ;
+        schema:hasOccupation  "Retirees"@en ;
+        schema:name           "朱葆瑨"@zh-Hant ;
+        schema:name           "朱葆瑨"@zh-Hans .
+
+wechi:p-chengj   rdf:type  schema:Person ;
+        schema:name           "Cheng, Jim"@en ;
+        schema:name           "程健"@zh-Hant ;
+        schema:name           "程健"@zh-Hans ;
+        schema:alternateName  "Cheng, Jian"@en ;
+        schema:sameAs         <https://lccn.loc.gov/no2004112958> ;
+        schema:hasOccupation  "Academic library directors"@en ;
+        schema:subjectOf      wechi:bb7587309m .
+
+<https://lccn.loc.gov/no2004112958>
+        schema:name  "Cheng, Jim"@en .
+
+wechi:p-chengr   rdf:type  schema:Person ;
+        schema:name           "鄭莉容"@zh-Hant ;  
+        schema:name           "Cheng, Julia R."@en ;
+        schema:name           "郑莉容"@zh-Hans ;        
+        schema:alternateName  "鄭容"@zh-Hant ;
+        schema:alternateName  "郑容"@zh-Hans ;
+        schema:alternateName  "Cheng, Lirong"@en ;
+        schema:alternateName  "Cheng, Rong"@en ;
+        schema:hasOccupation  "Financial planners"@en ;
+        schema:subjectOf      wechi:bb16828124 ;
+        schema:sameAs         <https://lccn.loc.gov/no2020130756> .
+
+<https://lccn.loc.gov/no2020130756>
+        schema:name  "Zheng, Lirong (Financial planner)"@en .
+
+wechi:bb44132171  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb44132171> ;
+        schema:datePublished  "2009-06"^^xsd:gYearMonth ;
+        schema:issueNumber    "93"^^xsd:int ;
+        schema:volumeNumber   "8"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 8 Issue 93"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/n86057390>
+        schema:name  "Wu, Lingyao, 1951-"@en .
+
+wechi:p-choiti  schema:subjectOf  wechi:bb46179939 ;
+        schema:hasOccupation  "Authors"@en ;
+        schema:sameAs         wd:Q114747378 ;
+        schema:sameAs         <https://lccn.loc.gov/nr96045351> ;
+        schema:alternateName  "Zhuo, Yiding"@en ;
+        schema:name           "卓以定"@zh-Hans ;
+        schema:name           "Cho, I-ting"@en ;
+        schema:name           "卓以定"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:p-jenkin  schema:subjectOf  wechi:bb45156060 ;
+        schema:hasOccupation  "Ship captains"@en ;
+        schema:sameAs         wd:Q15956423 ;
+        schema:alternateName  "Jian, Jieke"@en ;
+        schema:name           "简杰克"@zh-Hans ;
+        schema:name           "Jenkins, Joker L."@en ;
+        schema:name           "簡傑克"@zh-Hant ;
+        rdf:type              schema:Person .
+
+<https://lccn.loc.gov/n98922153>
+        schema:name  "Thanin Čhīarawanon"@en .
+
+wechi:bb45156060  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb45156060> ;
+        schema:datePublished  "2008-05"^^xsd:gYearMonth ;
+        schema:issueNumber    "80"^^xsd:int ;
+        schema:volumeNumber   "7"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 7 Issue 80"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-woocat  schema:name   "卓以玉"@zh-Hant ;
+        schema:name           "卓以玉"@zh-Hans ;
+        schema:alternateName  "Cho, Catherine"@en ;
+        schema:hasOccupation  "Poets"@en ;
+        schema:name           "Woo, Catherine"@en ;
+        schema:sameAs         wd:Q115023028 ;
+        schema:alternateName  "Zhuo, Yiyu"@en ;
+        rdf:type              schema:Person ;
+        schema:alternateName  "Cho, Yi-yu"@en ;
+        schema:sameAs         <https://lccn.loc.gov/n85807363> ;
+        schema:subjectOf      wechi:bb7587303h .
+
+wechi:bb0897823z  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb0897823z> ;
+        schema:datePublished  "2002-03"^^xsd:gYearMonth ;
+        schema:issueNumber    "6"^^xsd:int ;
+        schema:volumeNumber   "1"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 1 Issue 6"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb7587309m  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb7587309m> ;
+        schema:datePublished  "2009-08"^^xsd:gYearMonth ;
+        schema:issueNumber    "95"^^xsd:int ;
+        schema:volumeNumber   "8"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 8 Issue 95"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb2809107z  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb2809107z> ;
+        schema:datePublished  "2008-07"^^xsd:gYearMonth ;
+        schema:issueNumber    "82"^^xsd:int ;
+        schema:volumeNumber   "7"^^xsd:int ;
+        schema:name           " We Chinese in America Magazine, Volume 7 Issue 82"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-yaushi  schema:sameAs  wd:Q334760 ;
+        schema:alternateName  "Qiu, Chengtong"@en ;
+        schema:name           "Yau, Shing-Tung"@en ;
+        schema:sameAs         <https://lccn.loc.gov/n81049468> ;
+        rdf:type              schema:Person ;
+        schema:subjectOf      wechi:bb02834871 ;
+        schema:name           "邱成桐"@zh-Hant ;
+        schema:name           "邱成桐"@zh-Hans ;
+        schema:alternateName  "丘成桐"@zh-Hant ;
+        schema:alternateName  "丘成桐"@zh-Hans ;
+        schema:hasOccupation  "Mathematicians"@en .
+
+wechi:p-tandun  schema:subjectOf  wechi:bb7416659z ;
+        schema:hasOccupation  "Composers"@en ;
+        schema:hasOccupation  "Conductors (Music)"@en ;
+        schema:sameAs         <https://lccn.loc.gov/nr91003625> ;
+        schema:name           "谭盾"@zh-Hans ;
+        schema:name           "Tan, Dun"@en ;
+        schema:name           "譚盾"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:bb3833004x  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb3833004x> ;
+        schema:datePublished  "2005-03"^^xsd:gYearMonth ;
+        schema:issueNumber    "42"^^xsd:int ;
+        schema:volumeNumber   "4"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 4 Issue 42"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-chiens  schema:sameAs  <https://lccn.loc.gov/no2016126215> ;
+        schema:sameAs         wd:Q7504410 ;
+        schema:subjectOf      wechi:bb0897823z ;
+        schema:name           "钱煦"@zh-Hans ;
+        schema:name           "錢煦"@zh-Hant ;
+        schema:hasOccupation  "Physiologists"@en ;
+        schema:name           "Chien, Shu"@en ;
+        schema:alternateName  "Qian, Xu"@en ;
+        rdf:type              schema:Person ;
+        schema:hasOccupation  "Biologists"@en .
+
+wechi:p-yipwai  schema:name   "Yip, Wai-lim"@en ;
+        schema:subjectOf      wechi:bb42425648 ;
+        rdf:type              schema:Person ;
+        schema:hasOccupation  "Poets"@en ;
+        schema:sameAs         <https://lccn.loc.gov/n50057442> ;
+        schema:name           "葉維廉"@zh-Hant ;
+        schema:sameAs         wd:Q7959878 ;
+        schema:alternateName  "Ye, Weilian"@en ;
+        schema:alternateName  "Yeh, Wei-lien"@en ;
+        schema:name           "叶维廉"@zh-Hans .
+
+wechi:bb0829561p  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb0829561p> ;
+        schema:datePublished  "2003-03"^^xsd:gYearMonth ;
+        schema:issueNumber    "18"^^xsd:int ;
+        schema:volumeNumber   "2"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 2 Issue 18"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/no2001079743>
+        schema:name  "Li, Jiatong, 1939-"@en .
+
+<https://lccn.loc.gov/n2003065006>
+        schema:name  "Tang, Fei, 1932-"@en .
+
+wechi:bb62903663  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb62903663> ;
+        schema:datePublished  "2005-06"^^xsd:gYearMonth ;
+        schema:issueNumber    "45"^^xsd:int ;
+        schema:volumeNumber   "4"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 4 Issue 45"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/n2005056807>
+        schema:name  "Guo, Tina"@en .
+
+<https://lccn.loc.gov/no2002024352>
+        schema:name  "Lam, Carol C."@en .
+
+wechi:p-paiken  schema:alternateName  "Pai, Hsien-yung"@en ;
+        schema:name           "白先勇"@zh-Hant ;
+        schema:name           "白先勇"@zh-Hans ;
+        rdf:type              schema:Person ;
+        schema:name           "Pai, Kenneth"@en ;
+        schema:subjectOf      wechi:bb9396199z ;
+        schema:alternateName  "Bai, Xianyong"@en ;
+        schema:hasOccupation  "Authors"@en ;
+        schema:sameAs         <https://lccn.loc.gov/n81047202> ;
+        schema:sameAs         wd:Q803692 .
+
+wechi:bb4140178v  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb4140178v> ;
+        schema:datePublished  "2010-12"^^xsd:gYearMonth ;
+        schema:issueNumber    "111"^^xsd:int ;
+        schema:volumeNumber   "10"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 10 Issue 111"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb4174305m  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb4174305m> ;
+        schema:datePublished  "2002-11"^^xsd:gYearMonth ;
+        schema:issueNumber    "14"^^xsd:int ;
+        schema:volumeNumber   "2"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 2 Issue 14"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-fungbe  schema:name   "冯元桢"@zh-Hans ;
+        schema:alternateName  "Fung, Y. C."@en ;
+        schema:name           "馮元楨"@zh-Hant ;
+        schema:sameAs         wd:Q8060008 ;
+        rdf:type              schema:Person ;
+        schema:name           "Fung, Bert"@en ;
+        schema:subjectOf      wechi:bb3423444w ;
+        schema:hasOccupation  "College teachers"@en ;
+        schema:alternateName  "Feng, Yuanzhen"@en ;
+        schema:sameAs         <https://lccn.loc.gov/n78095531> .
+
+<https://lccn.loc.gov/no00027016>
+        schema:name  "Ho, David D., 1952-"@en .
+
+wechi:p-xujiat  schema:subjectOf  wechi:bb4140178v ;
+        schema:hasOccupation  "Politicians"@en ;
+        schema:sameAs         wd:Q8341002 ;
+        schema:sameAs         <https://lccn.loc.gov/n85073675> ;
+        schema:name           "许家屯"@zh-Hans ;
+        schema:name           "Xu, Jiatun"@en ;
+        schema:name           "許家屯"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:bb59149341  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb59149341> ;
+        schema:datePublished  "2007-03"^^xsd:gYearMonth ;
+        schema:issueNumber    "66"^^xsd:int ;
+        schema:volumeNumber   "6"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 6 Issue 66"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/n85073675>
+        schema:name  "Xu, Jiatun, 1916-2016"@en .
+
+wechi:bb59149362  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb59149362> ;
+        schema:datePublished  "2009-10"^^xsd:gYearMonth ;
+        schema:issueNumber    "97"^^xsd:int ;
+        schema:volumeNumber   "9"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 9 Issue 97"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb3525836d  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb3525836d> ;
+        schema:datePublished  "2006-09"^^xsd:gYearMonth ;
+        schema:issueNumber    "60"^^xsd:int ;
+        schema:volumeNumber   "5"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 5 Issue 60"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb3423444w  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb3423444w> ;
+        schema:datePublished  "2003-11"^^xsd:gYearMonth ;
+        schema:issueNumber    "26"^^xsd:int ;
+        schema:volumeNumber   "3"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 3 Issue 26"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb4549734n  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb4549734n> ;
+        schema:datePublished  "2003-07"^^xsd:gYearMonth ;
+        schema:issueNumber    "22"^^xsd:int ;
+        schema:volumeNumber   "2"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 2 Issue 22"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/no2001071604>
+        schema:name  "Lang, Lang, 1982-"@en .
+
+wechi:bb88159891  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb88159891> ;
+        schema:datePublished  "2012-04"^^xsd:gYearMonth ;
+        schema:issueNumber    "127"^^xsd:int ;
+        schema:volumeNumber   "11"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 11 Issue 127"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-yifa  schema:sameAs   wd:Q8053556 ;
+        schema:name           "依法"@zh-Hans ;
+        schema:name           "依法"@zh-Hant ;
+        schema:alternateName  "依法法师"@zh-Hans ;
+        schema:name           "Yifa"@en ;
+        schema:sameAs         <https://lccn.loc.gov/n2002054961> ;
+        schema:hasOccupation  "Buddhists"@en ;
+        schema:alternateName  "依法法師"@zh-Hant ;
+        schema:alternateName  "Yifa fa shi"@en ;
+        rdf:type              schema:Person ;
+        schema:subjectOf      wechi:bb62903663 .
+
+<https://lccn.loc.gov/n84076093>
+        schema:name  "Lo, Nancy C. H."@en .
+
+wechi:bb0488270s  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb0488270s> ;
+        schema:datePublished  "2012-02"^^xsd:gYearMonth ;
+        schema:issueNumber    "125"^^xsd:int ;
+        schema:volumeNumber   "11"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 11 Issue 125"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb3423447f  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb3423447f> ;
+        schema:datePublished  "2006-12"^^xsd:gYearMonth ;
+        schema:issueNumber    "63"^^xsd:int ;
+        schema:volumeNumber   "6"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 6 Issue 63"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-yeelel  schema:subjectOf  wechi:bb2979760x ;
+        schema:hasOccupation  "Politicians"@en ;
+        schema:sameAs         wd:Q4820785 ;
+        schema:alternateName  "Yu, Yinliang"@en ;
+        schema:name           "余胤良"@zh-Hans ;
+        schema:name           "Yee, Leland Yin"@en ;
+        schema:name           "余胤良"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:bb1682819r  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb1682819r> ;
+        schema:datePublished  "2010-09"^^xsd:gYearMonth ;
+        schema:issueNumber    "108"^^xsd:int ;
+        schema:volumeNumber   "9"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 9 Issue 108"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-yincc  schema:hasOccupation  "Businesspeople"@en ;
+        schema:name           "Yin, C.C."@en ;
+        schema:name           "尹集成"@zh-Hant ;
+        schema:name           "尹集成"@zh-Hans ;
+        schema:hasOccupation  "Executives"@en ;
+        schema:alternateName  "Yin, Jicheng"@en ;
+        schema:hasOccupation  "Philanthropists"@en ;
+        rdf:type              schema:Person ;
+        schema:subjectOf      wechi:bb6324501v ;
+        schema:sameAs         wd:Q10265354 .
+
+wechi:p-chengl  schema:subjectOf  wechi:bb4549734n ;
+        schema:hasOccupation  "College teachers"@en ;
+        schema:sameAs         <https://lccn.loc.gov/nr96014884> ;
+        schema:alternateName  "Liu, Li-jung"@en ;
+        schema:name           "刘丽容"@zh-Hans ;
+        schema:name           "Cheng, Lily"@en ;
+        schema:name           "劉麗容"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:p-wuman  schema:subjectOf  wechi:bb3525836d ;
+        schema:hasOccupation  "Stringed instrument players"@en ;
+        schema:sameAs         wd:Q436236 ;
+        schema:sameAs         <https://lccn.loc.gov/no97054606> ;
+        schema:name           "吴蛮"@zh-Hans ;
+        schema:name           "Wu, Man"@en ;
+        schema:name           "吳蠻"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:p-kunels  schema:subjectOf  wechi:bb97716238 ;
+        schema:sameAs         wd:Q15908898 ;
+        schema:alternateName  "Gu, Chonglian"@en ;
+        schema:alternateName  "Ku, Chung-lien"@en ;
+        schema:name           "Ku, Nelson"@en ;
+        schema:hasOccupation  "Admirals"@en ;
+        rdf:type              schema:Person ;
+        schema:name           "顾崇廉"@zh-Hans ;
+        schema:sameAs         <https://lccn.loc.gov/n2004057967> ;
+        schema:name           "顧崇廉"@zh-Hant .
+
+wechi:p-langla  schema:subjectOf  wechi:bb79968672 ;
+        schema:hasOccupation  "Pianists"@en ;
+        schema:sameAs         wd:Q155713 ;
+        schema:sameAs         <https://lccn.loc.gov/no2001071604> ;
+        schema:name           "郎朗"@zh-Hans ;
+        schema:name           "Lang, Lang"@en ;
+        schema:name           "郎朗"@zh-Hant ;
+        rdf:type              schema:Person .
+
+<https://lccn.loc.gov/n85807363>
+        schema:name  "Woo, Catherine Yi-yu Cho"@en .
+
+wechi:bb50616813  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb50616813> ;
+        schema:datePublished  "2002-04"^^xsd:gYearMonth ;
+        schema:issueNumber    "7"^^xsd:int ;
+        schema:volumeNumber   "1"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 1 Issue 7"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb50275599  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb50275599> ;
+        schema:datePublished  "2007-10"^^xsd:gYearMonth ;
+        schema:issueNumber    "73"^^xsd:int ;
+        schema:volumeNumber   "7"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 7 Issue 73"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-chenyu  schema:subjectOf  wechi:bb50616813 ;
+        schema:hasOccupation  "Athletes"@en ;
+        schema:sameAs         wd:Q272331 ;
+        schema:name           "陈跃玲"@zh-Hans ;
+        schema:name           "Chen, Yueling"@en ;
+        schema:name           "陳躍玲"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:bb4959299n  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb4959299n> ;
+        schema:datePublished  "2011-05"^^xsd:gYearMonth ;
+        schema:issueNumber    "116"^^xsd:int ;
+        schema:volumeNumber   "10"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 10 Issue 116"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/n2014010634>
+        schema:name  "Hom, Tom, 1927-"@en .
+
+wechi:p-chewst  schema:subjectOf  wechi:bb8713593f ;
+        schema:hasOccupation  "Actors"@en ;
+        schema:sameAs         wd:Q311179 ;
+        schema:sameAs         <https://lccn.loc.gov/no2003109669> ;
+        schema:alternateName  "Chow, Sing Chi"@en ;
+        schema:name           "周星驰"@zh-Hans ;
+        schema:name           "Chew, Stephen Sing Chi"@en ;
+        schema:name           "周星馳"@zh-Hant ;
+        rdf:type              schema:Person .
+
+<https://lccn.loc.gov/n2004057967>
+        schema:name  "Gu, Chonglian, 1931-"@en .
+
+wechi:bb85770740  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb85770740> ;
+        schema:datePublished  "2006-03"^^xsd:gYearMonth ;
+        schema:issueNumber    "54"^^xsd:int ;
+        schema:volumeNumber   "5"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 5 Issue 54"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-wuling  schema:subjectOf  wechi:bb59149362 ;
+        schema:hasOccupation  "Authors"@en ;
+        schema:sameAs         <https://lccn.loc.gov/n86057390> ;
+        schema:alternateName  "Chen, Linyao"@en ;
+        schema:alternateName  "Chen, Lin Yao"@en ;
+        schema:name           "吴玲瑶"@zh-Hans ;
+        schema:name           "Wu, Lingyao"@en ;
+        schema:name           "吳玲瑤"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:bb71094858  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb71094858> ;
+        schema:datePublished  "2005-11"^^xsd:gYearMonth ;
+        schema:issueNumber    "50"^^xsd:int ;
+        schema:volumeNumber   "5"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 5 Issue 50"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/n87933425>
+        schema:name  "Chang, Howard H., 1939-"@en .
+
+<https://lccn.loc.gov/no2002074549>
+        schema:name  "Shi, Kang, 1968-"@en .
+
+<https://lccn.loc.gov/no2003109669>
+        schema:name  "Zhou, Xingchi, 1962-"@en .
+
+<https://lccn.loc.gov/n81047202>
+        schema:name  "Pai, Hsien-yung, 1937-"@en .
+
+wechi:p-changh  schema:name   "张海燕"@zh-Hans ;
+        rdf:type              schema:Person ;
+        schema:name           "張海燕"@zh-Hant ;
+        schema:hasOccupation  "Consulting engineers"@en ;
+        schema:alternateName  "Zhang, Haiyan"@en ;
+        schema:sameAs         <https://lccn.loc.gov/n87933425> ;
+        schema:name           "Chang, Howard"@en ;
+        schema:hasOccupation  "Executives"@en ;
+        schema:hasOccupation  "College teachers"@en ;
+        schema:subjectOf      wechi:bb75873062 .
+
+<https://lccn.loc.gov/n78095531>
+        schema:name  "Fung, Y. C. (Yuan-cheng), 1919-2019"@en .
+
+wechi:p-maowei  schema:subjectOf  wechi:bb0488267x ;
+        schema:hasOccupation  "Pianists"@en ;
+        schema:sameAs         wd:Q97348121 ;
+        schema:name           "茅为蕙"@zh-Hans ;
+        schema:name           "Mao, Weihui"@en ;
+        schema:name           "茅為蕙"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:p-lamcar  schema:subjectOf  wechi:bb3423447f ;
+        schema:hasOccupation  "Public prosecutors"@en ;
+        schema:sameAs         wd:Q5044433 ;
+        schema:sameAs         <https://lccn.loc.gov/no2002024352> ;
+        schema:alternateName  "Lin, Jianhua"@en ;
+        schema:name           "林剑华"@zh-Hans ;
+        schema:name           "Lam, Carol Chien-Hua"@en ;
+        schema:name           "林劍華"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:bb2945625b  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb2945625b> ;
+        schema:datePublished  "2005-10"^^xsd:gYearMonth ;
+        schema:issueNumber    "49"^^xsd:int ;
+        schema:volumeNumber   "5"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 5 Issue 49"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-cherng  schema:sameAs  wd:Q4756595 ;
+        schema:name           "Cherng, Andrew"@en ;
+        schema:subjectOf      wechi:bb0078705g ;
+        schema:name           "程正昌"@zh-Hant ;
+        schema:name           "程正昌"@zh-Hans ;
+        schema:hasOccupation  "Executives"@en ;
+        schema:hasOccupation  "Businesspeople"@en ;
+        schema:alternateName  "Cheng, Zhengchang"@en ;
+        rdf:type              schema:Person ;
+        schema:hasOccupation  "Restaurateurs"@en .
+
+wechi:p-linthe  schema:subjectOf  wechi:bb1682819r ;
+        schema:hasOccupation  "Television personalities"@en ;
+        schema:hasOccupation  "Celebrity chefs"@en ;
+        schema:sameAs         <https://lccn.loc.gov/n97017445> ;
+        schema:name           "林慧懿"@zh-Hans ;
+        schema:name           "Lin, Theresa"@en ;
+        schema:name           "林慧懿"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:p-homtom  schema:subjectOf  wechi:bb5744291p ;
+        schema:hasOccupation  "Politicians"@en ;
+        schema:sameAs         wd:Q21176195 ;
+        schema:sameAs         <https://lccn.loc.gov/n2014010634> ;
+        schema:alternateName  "Tan, Zhuoyi"@en ;
+        schema:name           "谭卓仪"@zh-Hans ;
+        schema:name           "Hom, Tom"@en ;
+        schema:name           "譚卓儀"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:p-leeric  schema:subjectOf  wechi:bb58125473 ;
+        schema:hasOccupation  "Computer scientists"@en ;
+        schema:sameAs         <https://lccn.loc.gov/no2001079743> ;
+        schema:alternateName  "Lee, Chia-Tung"@en ;
+        schema:alternateName  "Lee, R. C. T."@en ;
+        schema:name           "李家同"@zh-Hans ;
+        schema:name           "Lee, Richard Chia-Tung"@en ;
+        schema:name           "李家同"@zh-Hant ;
+        rdf:type              schema:Person .
+
+<https://lccn.loc.gov/n95074518>
+        schema:name  "Chang, Iris"@en .
+
+<https://lccn.loc.gov/no97054606>
+        schema:name  "Wu, Man"@en .
+
+wechi:bb3286929k  schema:name  " We Chinese in America Magazine, Volume 10 Issue 118"@en ;
+        schema:isPartOf       wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb3286929k> ;
+        schema:datePublished  "2011-07"^^xsd:gYearMonth ;
+        schema:issueNumber    "118"^^xsd:int ;
+        schema:volumeNumber   "10"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 10 Issue 118"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb8713593f  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb8713593f> ;
+        schema:datePublished  "2003-08"^^xsd:gYearMonth ;
+        schema:issueNumber    "23"^^xsd:int ;
+        schema:volumeNumber   "2"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 2 Issue 23"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-tsuang  schema:name   "庄明哲"@zh-Hans ;
+        schema:hasOccupation  "College teachers"@en ;
+        schema:sameAs         <https://lccn.loc.gov/n80063799> ;
+        schema:subjectOf      wechi:bb4242567t ;
+        schema:hasOccupation  "Psychiatrists"@en ;
+        rdf:type              schema:Person ;
+        schema:name           "Tsuang, Ming"@en ;
+        schema:name           "莊明哲"@zh-Hant ;
+        schema:sameAs         wd:Q57493840 ;
+        schema:alternateName  "Zhuang, Mingzhe"@en .
+
+wechi:bb7416659z  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb7416659z> ;
+        schema:datePublished  "2011-08"^^xsd:gYearMonth ;
+        schema:issueNumber    "119"^^xsd:int ;
+        schema:volumeNumber   "10"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 10 Issue 119"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/n2002054961>
+        schema:name  "Yifa"@en .
+
+wechi:bb4242567t  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb4242567t> ;
+        schema:datePublished  "2007-05"^^xsd:gYearMonth ;
+        schema:issueNumber    "68"^^xsd:int ;
+        schema:volumeNumber   "6"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 6 Issue 68"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb16828124  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb16828124> ;
+        schema:datePublished  "2002-08"^^xsd:gYearMonth ;
+        schema:issueNumber    "11"^^xsd:int ;
+        schema:volumeNumber   "1"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 1 Issue 11"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb15804298  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb15804298> ;
+        schema:datePublished  "2011-10"^^xsd:gYearMonth ;
+        schema:issueNumber    "121"^^xsd:int ;
+        schema:volumeNumber   "11"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 11 Issue 121"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/no2010068740>
+        schema:name  "Lin, Dan (Film producer)"@en .
+
+wechi:bb6836445b  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb6836445b> ;
+        schema:datePublished  "2001-11"^^xsd:gYearMonth ;
+        schema:issueNumber    "2"^^xsd:int ;
+        schema:volumeNumber   "1"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 1 Issue 2"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-tangfe  schema:subjectOf  wechi:bb85770740 ;
+        schema:hasOccupation  "Air pilots, Military"@en ;
+        schema:sameAs         wd:Q716768 ;
+        schema:sameAs         <https://lccn.loc.gov/n2003065006> ;
+        schema:name           "唐飞"@zh-Hans ;
+        schema:name           "Tang, Fei"@en ;
+        schema:name           "唐飛"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:p-huangf  schema:subjectOf  wechi:bb4959299n ;
+        schema:hasOccupation  "Cellists"@en ;
+        schema:sameAs         <https://lccn.loc.gov/n2010071208> ;
+        schema:alternateName  "Huang, Su"@en ;
+        schema:name           "黃甦"@zh-Hans ;
+        schema:name           "Huang, Frank Su"@en ;
+        schema:name           "黃甦"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:p-taipau  schema:sameAs  <https://lccn.loc.gov/n88244465> ;
+        schema:name           "戴鴻超"@zh-Hant ;
+        schema:hasOccupation  "Executives"@en ;
+        schema:alternateName  "Tai, Hung-chao"@en ;
+        schema:name           "戴鸿超"@zh-Hans ;
+        rdf:type              schema:Person ;
+        schema:name           "Tai, Paul H."@en ;
+        schema:subjectOf      wechi:bb0010444z ;
+        schema:hasOccupation  "Political scientists"@en ;
+        schema:sameAs         wd:Q8945620 .
+
+wechi:bb8406425g  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb8406425g> ;
+        schema:datePublished  "2004-05"^^xsd:gYearMonth ;
+        schema:issueNumber    "32"^^xsd:int ;
+        schema:volumeNumber   "3"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 3 Issue 32"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/n99015516>
+        schema:name  "Guo, Lu-Yan"@en .
+
+wechi:bb0454136q  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb0454136q> ;
+        schema:datePublished  "2005-07"^^xsd:gYearMonth ;
+        schema:issueNumber    "46"^^xsd:int ;
+        schema:volumeNumber   "4"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 4 Issue 46"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-hodavi  schema:subjectOf  wechi:bb59149341 ;
+        schema:hasOccupation  "Medical scientists"@en ;
+        schema:sameAs         wd:Q378003 ;
+        schema:sameAs         <https://lccn.loc.gov/no00027016> ;
+        schema:alternateName  "He, Dayi"@en ;
+        schema:name           "何大一"@zh-Hans ;
+        schema:name           "Ho, David Da-i"@en ;
+        schema:name           "何大一"@zh-Hant ;
+        rdf:type              schema:Person .
+
+<https://lccn.loc.gov/n50057442>
+        schema:name  "Yip, Wai-lim"@en .
+
+wechi:bb6324501v  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb6324501v> ;
+        schema:datePublished  "2012-01"^^xsd:gYearMonth ;
+        schema:issueNumber    "124"^^xsd:int ;
+        schema:volumeNumber   "11"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 11 Issue 124"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/n82136245>
+        schema:name  "Lee, Henry C."@en .
+
+wechi:p-chenma  schema:hasOccupation  "Executives"@en ;
+        schema:hasOccupation  "Authors and publishers"@en ;
+        schema:name           "陈十美"@zh-Hans ;
+        schema:hasOccupation  "Educators"@en ;
+        schema:subjectOf      wechi:bb0488270s ;
+        schema:name           "陳十美"@zh-Hant ;
+        schema:alternateName  "Chen, Shimei"@en ;
+        schema:name           "Chen, May"@en ;
+        rdf:type              schema:Person ;
+        schema:sameAs         <https://lccn.loc.gov/n2006086585> .
+
+wechi:p-yumark  schema:alternateName  "Yu, Mang"@en ;
+        schema:subjectOf      wechi:bb72801334 ;
+        schema:name           "Yu, Mark"@en ;
+        schema:hasOccupation  "Biotechnologists"@en ;
+        rdf:type              schema:Person ;
+        schema:hasOccupation  "Businesspeople"@en ;
+        schema:subjectOf      wechi:bb6563402q ;
+        schema:name           "余芒"@zh-Hant ;
+        schema:name           "余芒"@zh-Hans ;
+        schema:sameAs         <https://lccn.loc.gov/no92030086> .
+
+wechi:p-lingja  schema:subjectOf  wechi:bb96692321 ;
+        schema:hasOccupation  "Conductors (Music)"@en ;
+        schema:sameAs         wd:Q4260212 ;
+        schema:sameAs         <https://lccn.loc.gov/n91021233> ;
+        schema:alternateName  "Lin, Wangjie"@en ;
+        schema:name           "林望杰"@zh-Hans ;
+        schema:name           "Ling, Jahja"@en ;
+        schema:name           "林望傑"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:bb58125473  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb58125473> ;
+        schema:datePublished  "2010-10"^^xsd:gYearMonth ;
+        schema:issueNumber    "109"^^xsd:int ;
+        schema:volumeNumber   "10"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 10 Issue 109"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/n2010071208>
+        schema:name  "Huang, Su, 1955-"@en .
+
+<https://lccn.loc.gov/n88244465>
+        schema:name  "Dai, Hongchao, 1929-"@en .
+
+wechi:bb0078705g  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb0078705g> ;
+        schema:datePublished  "2007-04"^^xsd:gYearMonth ;
+        schema:issueNumber    "67"^^xsd:int ;
+        schema:volumeNumber   "6"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 6 Issue 67"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-guotin  schema:subjectOf  wechi:bb0829561p ;
+        schema:hasOccupation  "Cellists"@en ;
+        schema:sameAs         <https://lccn.loc.gov/n2005056807> ;
+        schema:alternateName  "Guo, Ting"@en ;
+        schema:name           "郭婷"@zh-Hans ;
+        schema:name           "Guo, Tina"@en ;
+        schema:name           "郭婷"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:bb2979760x  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb2979760x> ;
+        schema:datePublished  "2012-05"^^xsd:gYearMonth ;
+        schema:issueNumber    "128"^^xsd:int ;
+        schema:volumeNumber   "11"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 11 Issue 128"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/no2016126215>
+        schema:name  "Qian, Xu, 1931-"@en .
+
+wechi:bb4686261x  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb4686261x> ;
+        schema:datePublished  "2012-12"^^xsd:gYearMonth ;
+        schema:issueNumber    "135"^^xsd:int ;
+        schema:volumeNumber   "12"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 12 Issue 135"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-shikan  schema:subjectOf  wechi:bb15804298 ;
+        schema:hasOccupation  "Screenwriters"@en ;
+        schema:sameAs         wd:Q314176 ;
+        schema:sameAs         <https://lccn.loc.gov/no2002074549> ;
+        schema:name           "石康"@zh-Hans ;
+        schema:name           "Shi, Kang"@en ;
+        schema:name           "石康"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:p-leehen  schema:subjectOf  wechi:bb3833004x ;
+        schema:hasOccupation  "Forensic scientists"@en ;
+        schema:sameAs         wd:Q3784914 ;
+        schema:sameAs         <https://lccn.loc.gov/n82136245> ;
+        schema:alternateName  "Li, Changyu"@en ;
+        schema:name           "李昌钰"@zh-Hans ;
+        schema:name           "Lee, Henry Chang-Yu"@en ;
+        schema:name           "李昌鈺"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:p-wangle  schema:subjectOf  wechi:bb88159891 ;
+        schema:hasOccupation  "Mountaineers"@en ;
+        schema:sameAs         wd:Q7967527 ;
+        schema:name           "王雷"@zh-Hans ;
+        schema:name           "Wang, Lei"@en ;
+        schema:name           "王雷"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:bb5607762c  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb5607762c> ;
+        schema:datePublished  "2004-10"^^xsd:gYearMonth ;
+        schema:issueNumber    "37"^^xsd:int ;
+        schema:volumeNumber   "4"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 4 Issue 37"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb0488267x  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb0488267x> ;
+        schema:datePublished  "2008-10"^^xsd:gYearMonth ;
+        schema:issueNumber    "85"^^xsd:int ;
+        schema:volumeNumber   "8"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 8 Issue 85"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb02834871  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb02834871> ;
+        schema:datePublished  "2009-05"^^xsd:gYearMonth ;
+        schema:issueNumber    "92"^^xsd:int ;
+        schema:volumeNumber   "8"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 8 Issue 92"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/no92030086>
+        schema:name  "Yu, Mang"@en .
+
+<https://lccn.loc.gov/n97017445>
+        schema:name  "Lin, Huiyi"@en .
+
+wechi:p-chiang  schema:subjectOf  wechi:bb4686261x ;
+        schema:hasOccupation  "Politicians"@en ;
+        schema:sameAs         wd:Q6225926 ;
+        schema:alternateName  "Jiang, Junhui"@en ;
+        schema:name           "江俊辉"@zh-Hans ;
+        schema:name           "Chiang, John"@en ;
+        schema:name           "江俊輝"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:bb9396199z  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb9396199z> ;
+        schema:datePublished  "2006-08"^^xsd:gYearMonth ;
+        schema:issueNumber    "59"^^xsd:int ;
+        schema:volumeNumber   "5"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 5 Issue 59"@en ;
+        rdf:type              schema:CreativeWork .
+
+<https://lccn.loc.gov/n82228970>
+        schema:name  "Chu, Pao-chin, 1928-"@en .
+
+<https://lccn.loc.gov/n2006086585>
+        schema:name  "Chen, May"@en .
+
+wechi:p-evanss  schema:subjectOf  wechi:bb6836445b ;
+        schema:hasOccupation  "Martial artists"@en ;
+        schema:sameAs         wd:Q115510651 ;
+        schema:alternateName  "Lu, Shaofang"@en ;
+        schema:name           "吕少芳"@zh-Hans ;
+        schema:name           "Evans, Siu-Fong"@en ;
+        schema:name           "呂少芳"@zh-Hant ;
+        rdf:type              schema:Person .
+
+wechi:p-lonanc  schema:subjectOf  wechi:bb4174305m ;
+        schema:hasOccupation  "Biometricians"@en ;
+        schema:sameAs         wd:Q114898181 ;
+        schema:sameAs         <https://lccn.loc.gov/n84076093> ;
+        schema:alternateName  "Luo, Qianhui"@en ;
+        schema:name           "罗黔辉"@zh-Hans ;
+        schema:name           "Lo, Nancy C. H."@en ;
+        schema:name           "羅黔輝"@zh-Hant ;
+        rdf:type              schema:Person .
+
+<https://lccn.loc.gov/no2011081684>
+        schema:name  "Chang, Ying-Ying"@en .
+
+wechi:p-wanjie   rdf:type  schema:Person ;
+        schema:name           "王潔實"@zh-Hant ;
+        schema:name           "王洁实"@zh-Hans ;
+        schema:name           "Wang, Jieshi"@en ;
+        schema:sameAs         wd:Q114780661 ;
+        schema:hasOccupation  "Singers"@en ;
+        schema:subjectOf      wechi:bb44132171 .
+
+wechi:p-wangji   rdf:type  schema:Person ;
+        schema:name           "汪靜"@zh-Hant ;
+        schema:name           "汪静"@zh-Hans ;
+        schema:name           "Wang, Jing"@en ;
+        schema:hasOccupation  "Executives"@en ;
+        schema:hasOccupation  "Lawyers"@en ;
+        schema:sameAs         wd:Q18383740 ;
+        schema:subjectOf      wechi:bb8406425g ;
+        schema:subjectOf      wechi:bb2809107z .
+
+wechi:bb42425648  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb42425648> ;
+        schema:datePublished  "2004-04"^^xsd:gYearMonth ;
+        schema:issueNumber    "31"^^xsd:int ;
+        schema:volumeNumber   "3"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 3 Issue 31"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:bb7587303h  schema:isPartOf  wechi:bb0420000x ;
+        schema:url            <https://library.ucsd.edu/dc/object/bb7587303h> ;
+        schema:datePublished  "2003-12"^^xsd:gYearMonth ;
+        schema:issueNumber    "27"^^xsd:int ;
+        schema:volumeNumber   "3"^^xsd:int ;
+        schema:name           "We Chinese in America Magazine, Volume 3 Issue 27"@en ;
+        rdf:type              schema:CreativeWork .
+
+wechi:p-wangch  schema:subjectOf  wechi:bb2945625b ;
+        schema:hasOccupation  "Potters"@en ;
+        schema:sameAs         wd:Q21292946 ;
+        schema:sameAs         <https://lccn.loc.gov/no2008140281> ;
+        schema:alternateName  "Wang, Junwen"@en ;
+        schema:name           "王俊文"@zh-Hans ;
+        schema:name           "Wang, Chun Wen"@en ;
+        schema:name           "王俊文"@zh-Hant ;
+        rdf:type              schema:Person .
