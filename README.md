@@ -76,6 +76,7 @@ wechi:bb9908145z  schema:isPartOf  wechi:bb0420000x ;
         schema:issueNumber    "16"^^xsd:int ;
         schema:name           "We Chinese in America Magazine, Volume 2 Issue 16"@en ;
         rdf:type              schema:CreativeWork .
+
 <https://lccn.loc.gov/no2003054130>
         schema:name  "Li, Xian, 1959-"@en .
 ```
