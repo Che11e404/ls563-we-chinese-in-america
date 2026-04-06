@@ -4,7 +4,7 @@ Linked data project modeling individuals featured on the covers of We Chinese in
 **A. Dataset Description**
 
 This dataset focuses on Chinese and Chinese Americans who appeared on the cover of We Chinese in America, a Chinese magazine published in San Diego that features news about the Chinese American community in Southern California (see https://wechineseus.com/index.php/english-section). The dataset is curated primarily from the descriptive metadata in the UC San Diego’s We Chinese in America Magazine Collection, which consists of digitized print issues published between 2001 and 2012 (see https://calisphere.org/collections/27980/). The dataset is supplemented with data from publicly available online sources.
-The dataset contains 9 columns of property-value pairs and 56 entity rows. Individuals are modeled as the primary entities and are linked to the magazine issues in which they appeared. Each entity includes alternative name forms and external authority references, such as Wikidata identifiers and Library of Congress authorities. It is common for Chinese Americans to have a Chinese name, different romanized names, and a Western name used to navigate American society. The goal of this project is to connect name variants across languages to support improved searching and discovery of individuals featured on the magazine covers who have made significant contributions to their communities.
+The dataset contains 9 columns of property-value pairs and 56 entity rows. Individuals are modeled as primary person entities and are linked to the magazine issues in which they appeared. Each entity includes alternative name forms and external authority references, such as Wikidata identifiers and Library of Congress authorities. It is common for Chinese Americans to have a Chinese name, different romanized names, and a Western name used to navigate American society. The goal of this project is to connect name variants across languages to support improved searching and discovery of individuals featured on the magazine covers who have made significant contributions to their communities.
 
 **B. Ontology and Controlled Vocabularies Used**
 
@@ -12,7 +12,11 @@ The data is structured using the RDF framework. Schema.org is used to model enti
 
 **C. Linking Strategy**
 
-Within the dataset, individuals are linked to the magazine issues in which they appeared using schema:subjectOf. Each person entity is also linked to external identifiers, including Wikidata entities and Library of Congress Control Numbers (LCCN) using schema:sameAs.
+Each individual, magazine issue, and the magazine itself are modeled as URIs. This allows these entities to have their own properties and to be linked to one another within the dataset. Individuals are connected to the magazine issues in which they appear using schema:subjectOf. All other data are modeled as literals, as they are descriptive attributes of these entities.
+
+Person URIs are minted using the format "wechi:p-xxxxxx" to distinguish them from magazine issue URIs. Each magazine issue is minted as "wechi:bbxxxxxxxx", based on the UC San Diego item identifier (for example, wechi:bb7826212c for the October 2001 issue available at https://library.ucsd.edu/dc/object/bb7826212c). This makes it easier to verify and cross-check the data. The magazine itself is minted as wechi:bb0420000x, following the identifier used in the UC San Diego We Chinese in America Magazine Collection homepage (https://library.ucsd.edu/dc/collection/bb0420000x). All magazine issues are linked to wechi:bb0420000x using schema:isPartOf.
+
+For external identifiers, each person entity is linked to Wikidata entities and Library of Congress Control Numbers (LCCNs) using schema:sameAs to support authority control and interoperability. Each issue is also linked to its digitized version in the UC San Diego Library Digital Collections to provide access to the source material.
 
 **D. Sample Triples**
 
