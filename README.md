@@ -48,32 +48,32 @@ wechi:p-geesch   rdf:type  schema:Person ;
 wechi:bb5949066p  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb5949066p> ;
         schema:datePublished  "2007-12"^^xsd:gYearMonth ;
-        schema:volumeNumber   "7"^^xsd:int ;
-        schema:issueNumber    "75"^^xsd:int ;
+        schema:volumeNumber   "7"^^xsd:integer ;
+        schema:issueNumber    "75"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 7 Issue 75"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb7826212c  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb7826212c> ;
         schema:datePublished  "2001-10"^^xsd:gYearMonth ;
-        schema:volumeNumber   "1"^^xsd:int ;
-        schema:issueNumber    "1"^^xsd:int ;
+        schema:volumeNumber   "1"^^xsd:integer ;
+        schema:issueNumber    "1"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 1 Issue 1"@en ;
         rdf:type              schema:CreativeWork .
         
 wechi:bb72801334  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb72801334> ;
         schema:datePublished  "2004-09"^^xsd:gYearMonth ;
-        schema:volumeNumber   "3"^^xsd:int ;
-        schema:issueNumber    "36"^^xsd:int ;
+        schema:volumeNumber   "3"^^xsd:integer ;
+        schema:issueNumber    "36"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 3 Issue 36"@en ;
         rdf:type              schema:CreativeWork .
         
 wechi:bb9908145z  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb9908145z> ;
         schema:datePublished  "2003-01"^^xsd:gYearMonth ;
-        schema:volumeNumber   "2"^^xsd:int ;
-        schema:issueNumber    "16"^^xsd:int ;
+        schema:volumeNumber   "2"^^xsd:integer ;
+        schema:issueNumber    "16"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 2 Issue 16"@en ;
         rdf:type              schema:CreativeWork .
 
