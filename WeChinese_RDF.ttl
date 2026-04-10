@@ -24,32 +24,32 @@ wechi:p-geesch   rdf:type  schema:Person ;
 wechi:bb5949066p  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb5949066p> ;
         schema:datePublished  "2007-12"^^xsd:gYearMonth ;
-        schema:volumeNumber   "7"^^xsd:int ;
-        schema:issueNumber    "75"^^xsd:int ;
+        schema:volumeNumber   "7"^^xsd:integer ;
+        schema:issueNumber    "75"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 7 Issue 75"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb7826212c  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb7826212c> ;
         schema:datePublished  "2001-10"^^xsd:gYearMonth ;
-        schema:volumeNumber   "1"^^xsd:int ;
-        schema:issueNumber    "1"^^xsd:int ;
+        schema:volumeNumber   "1"^^xsd:integer ;
+        schema:issueNumber    "1"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 1 Issue 1"@en ;
         rdf:type              schema:CreativeWork .
         
 wechi:bb72801334  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb72801334> ;
         schema:datePublished  "2004-09"^^xsd:gYearMonth ;
-        schema:volumeNumber   "3"^^xsd:int ;
-        schema:issueNumber    "36"^^xsd:int ;
+        schema:volumeNumber   "3"^^xsd:integer ;
+        schema:issueNumber    "36"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 3 Issue 36"@en ;
         rdf:type              schema:CreativeWork .
         
 wechi:bb9908145z  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb9908145z> ;
         schema:datePublished  "2003-01"^^xsd:gYearMonth ;
-        schema:volumeNumber   "2"^^xsd:int ;
-        schema:issueNumber    "16"^^xsd:int ;
+        schema:volumeNumber   "2"^^xsd:integer ;
+        schema:issueNumber    "16"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 2 Issue 16"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -70,8 +70,8 @@ wechi:p-cheara  schema:name   "谢国民"@zh-Hans ;
 wechi:bb46179939  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb46179939> ;
         schema:datePublished  "2005-08"^^xsd:gYearMonth ;
-        schema:issueNumber    "47"^^xsd:int ;
-        schema:volumeNumber   "4"^^xsd:int ;
+        schema:issueNumber    "47"^^xsd:integer ;
+        schema:volumeNumber   "4"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 4 Issue 47"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -95,8 +95,8 @@ wechi:p-maaoni  schema:subjectOf  wechi:bb2126503s ;
 wechi:bb0010444z  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb0010444z> ;
         schema:datePublished  "2002-10"^^xsd:gYearMonth ;
-        schema:issueNumber    "13"^^xsd:int ;
-        schema:volumeNumber   "2"^^xsd:int ;
+        schema:issueNumber    "13"^^xsd:integer ;
+        schema:volumeNumber   "2"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 2 Issue 13"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -136,8 +136,8 @@ wechi:p-guoluy  schema:subjectOf  wechi:bb0829561p ;
 wechi:bb75873062  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb75873062> ;
         schema:datePublished  "2007-01"^^xsd:gYearMonth ;
-        schema:issueNumber    "64"^^xsd:int ;
-        schema:volumeNumber   "6"^^xsd:int ;
+        schema:issueNumber    "64"^^xsd:integer ;
+        schema:volumeNumber   "6"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 6 Issue 64"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -147,16 +147,16 @@ wechi:bb75873062  schema:isPartOf  wechi:bb0420000x ;
 wechi:bb6563402q  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb6563402q> ;
         schema:datePublished  "2003-05"^^xsd:gYearMonth ;
-        schema:issueNumber    "20"^^xsd:int ;
-        schema:volumeNumber   "2"^^xsd:int ;
+        schema:issueNumber    "20"^^xsd:integer ;
+        schema:volumeNumber   "2"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 2 Issue 20"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb5744291p  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb5744291p> ;
         schema:datePublished  "2011-11"^^xsd:gYearMonth ;
-        schema:issueNumber    "122"^^xsd:int ;
-        schema:volumeNumber   "11"^^xsd:int ;
+        schema:issueNumber    "122"^^xsd:integer ;
+        schema:volumeNumber   "11"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 11 Issue 122"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -173,16 +173,16 @@ wechi:p-lindan  schema:subjectOf  wechi:bb0522399f ;
 wechi:bb2126503s  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb2126503s> ;
         schema:datePublished  "2005-05"^^xsd:gYearMonth ;
-        schema:issueNumber    "44"^^xsd:int ;
-        schema:volumeNumber   "4"^^xsd:int ;
+        schema:issueNumber    "44"^^xsd:integer ;
+        schema:volumeNumber   "4"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 4 Issue 44"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb97716238  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb97716238> ;
         schema:datePublished  "2004-11"^^xsd:gYearMonth ;
-        schema:issueNumber    "38"^^xsd:int ;
-        schema:volumeNumber   "4"^^xsd:int ;
+        schema:issueNumber    "38"^^xsd:integer ;
+        schema:volumeNumber   "4"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 4 Issue 38"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -192,24 +192,24 @@ wechi:bb97716238  schema:isPartOf  wechi:bb0420000x ;
 wechi:bb79968672  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb79968672> ;
         schema:datePublished  "2005-04"^^xsd:gYearMonth ;
-        schema:issueNumber    "43"^^xsd:int ;
-        schema:volumeNumber   "4"^^xsd:int ;
+        schema:issueNumber    "43"^^xsd:integer ;
+        schema:volumeNumber   "4"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 4 Issue 43"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb96692321  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb96692321> ;
         schema:datePublished  "2005-02"^^xsd:gYearMonth ;
-        schema:issueNumber    "41"^^xsd:int ;
-        schema:volumeNumber   "4"^^xsd:int ;
+        schema:issueNumber    "41"^^xsd:integer ;
+        schema:volumeNumber   "4"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 4 Issue 41"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb0522399f  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb0522399f> ;
         schema:datePublished  "2012-11"^^xsd:gYearMonth ;
-        schema:issueNumber    "134"^^xsd:int ;
-        schema:volumeNumber   "12"^^xsd:int ;
+        schema:issueNumber    "134"^^xsd:integer ;
+        schema:volumeNumber   "12"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 12 Issue 134"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -267,8 +267,8 @@ wechi:p-chengr   rdf:type  schema:Person ;
 wechi:bb44132171  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb44132171> ;
         schema:datePublished  "2009-06"^^xsd:gYearMonth ;
-        schema:issueNumber    "93"^^xsd:int ;
-        schema:volumeNumber   "8"^^xsd:int ;
+        schema:issueNumber    "93"^^xsd:integer ;
+        schema:volumeNumber   "8"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 8 Issue 93"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -300,8 +300,8 @@ wechi:p-jenkin  schema:subjectOf  wechi:bb45156060 ;
 wechi:bb45156060  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb45156060> ;
         schema:datePublished  "2008-05"^^xsd:gYearMonth ;
-        schema:issueNumber    "80"^^xsd:int ;
-        schema:volumeNumber   "7"^^xsd:int ;
+        schema:issueNumber    "80"^^xsd:integer ;
+        schema:volumeNumber   "7"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 7 Issue 80"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -320,24 +320,24 @@ wechi:p-woocat  schema:name   "卓以玉"@zh-Hant ;
 wechi:bb0897823z  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb0897823z> ;
         schema:datePublished  "2002-03"^^xsd:gYearMonth ;
-        schema:issueNumber    "6"^^xsd:int ;
-        schema:volumeNumber   "1"^^xsd:int ;
+        schema:issueNumber    "6"^^xsd:integer ;
+        schema:volumeNumber   "1"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 1 Issue 6"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb7587309m  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb7587309m> ;
         schema:datePublished  "2009-08"^^xsd:gYearMonth ;
-        schema:issueNumber    "95"^^xsd:int ;
-        schema:volumeNumber   "8"^^xsd:int ;
+        schema:issueNumber    "95"^^xsd:integer ;
+        schema:volumeNumber   "8"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 8 Issue 95"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb2809107z  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb2809107z> ;
         schema:datePublished  "2008-07"^^xsd:gYearMonth ;
-        schema:issueNumber    "82"^^xsd:int ;
-        schema:volumeNumber   "7"^^xsd:int ;
+        schema:issueNumber    "82"^^xsd:integer ;
+        schema:volumeNumber   "7"^^xsd:integer ;
         schema:name           " We Chinese in America Magazine, Volume 7 Issue 82"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -365,8 +365,8 @@ wechi:p-tandun  schema:subjectOf  wechi:bb7416659z ;
 wechi:bb3833004x  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb3833004x> ;
         schema:datePublished  "2005-03"^^xsd:gYearMonth ;
-        schema:issueNumber    "42"^^xsd:int ;
-        schema:volumeNumber   "4"^^xsd:int ;
+        schema:issueNumber    "42"^^xsd:integer ;
+        schema:volumeNumber   "4"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 4 Issue 42"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -395,8 +395,8 @@ wechi:p-yipwai  schema:name   "Yip, Wai-lim"@en ;
 wechi:bb0829561p  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb0829561p> ;
         schema:datePublished  "2003-03"^^xsd:gYearMonth ;
-        schema:issueNumber    "18"^^xsd:int ;
-        schema:volumeNumber   "2"^^xsd:int ;
+        schema:issueNumber    "18"^^xsd:integer ;
+        schema:volumeNumber   "2"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 2 Issue 18"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -409,8 +409,8 @@ wechi:bb0829561p  schema:isPartOf  wechi:bb0420000x ;
 wechi:bb62903663  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb62903663> ;
         schema:datePublished  "2005-06"^^xsd:gYearMonth ;
-        schema:issueNumber    "45"^^xsd:int ;
-        schema:volumeNumber   "4"^^xsd:int ;
+        schema:issueNumber    "45"^^xsd:integer ;
+        schema:volumeNumber   "4"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 4 Issue 45"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -434,16 +434,16 @@ wechi:p-paiken  schema:alternateName  "Pai, Hsien-yung"@en ;
 wechi:bb4140178v  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb4140178v> ;
         schema:datePublished  "2010-12"^^xsd:gYearMonth ;
-        schema:issueNumber    "111"^^xsd:int ;
-        schema:volumeNumber   "10"^^xsd:int ;
+        schema:issueNumber    "111"^^xsd:integer ;
+        schema:volumeNumber   "10"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 10 Issue 111"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb4174305m  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb4174305m> ;
         schema:datePublished  "2002-11"^^xsd:gYearMonth ;
-        schema:issueNumber    "14"^^xsd:int ;
-        schema:volumeNumber   "2"^^xsd:int ;
+        schema:issueNumber    "14"^^xsd:integer ;
+        schema:volumeNumber   "2"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 2 Issue 14"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -473,8 +473,8 @@ wechi:p-xujiat  schema:subjectOf  wechi:bb4140178v ;
 wechi:bb59149341  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb59149341> ;
         schema:datePublished  "2007-03"^^xsd:gYearMonth ;
-        schema:issueNumber    "66"^^xsd:int ;
-        schema:volumeNumber   "6"^^xsd:int ;
+        schema:issueNumber    "66"^^xsd:integer ;
+        schema:volumeNumber   "6"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 6 Issue 66"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -484,32 +484,32 @@ wechi:bb59149341  schema:isPartOf  wechi:bb0420000x ;
 wechi:bb59149362  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb59149362> ;
         schema:datePublished  "2009-10"^^xsd:gYearMonth ;
-        schema:issueNumber    "97"^^xsd:int ;
-        schema:volumeNumber   "9"^^xsd:int ;
+        schema:issueNumber    "97"^^xsd:integer ;
+        schema:volumeNumber   "9"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 9 Issue 97"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb3525836d  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb3525836d> ;
         schema:datePublished  "2006-09"^^xsd:gYearMonth ;
-        schema:issueNumber    "60"^^xsd:int ;
-        schema:volumeNumber   "5"^^xsd:int ;
+        schema:issueNumber    "60"^^xsd:integer ;
+        schema:volumeNumber   "5"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 5 Issue 60"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb3423444w  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb3423444w> ;
         schema:datePublished  "2003-11"^^xsd:gYearMonth ;
-        schema:issueNumber    "26"^^xsd:int ;
-        schema:volumeNumber   "3"^^xsd:int ;
+        schema:issueNumber    "26"^^xsd:integer ;
+        schema:volumeNumber   "3"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 3 Issue 26"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb4549734n  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb4549734n> ;
         schema:datePublished  "2003-07"^^xsd:gYearMonth ;
-        schema:issueNumber    "22"^^xsd:int ;
-        schema:volumeNumber   "2"^^xsd:int ;
+        schema:issueNumber    "22"^^xsd:integer ;
+        schema:volumeNumber   "2"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 2 Issue 22"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -519,8 +519,8 @@ wechi:bb4549734n  schema:isPartOf  wechi:bb0420000x ;
 wechi:bb88159891  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb88159891> ;
         schema:datePublished  "2012-04"^^xsd:gYearMonth ;
-        schema:issueNumber    "127"^^xsd:int ;
-        schema:volumeNumber   "11"^^xsd:int ;
+        schema:issueNumber    "127"^^xsd:integer ;
+        schema:volumeNumber   "11"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 11 Issue 127"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -542,16 +542,16 @@ wechi:p-yifa  schema:sameAs   wd:Q8053556 ;
 wechi:bb0488270s  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb0488270s> ;
         schema:datePublished  "2012-02"^^xsd:gYearMonth ;
-        schema:issueNumber    "125"^^xsd:int ;
-        schema:volumeNumber   "11"^^xsd:int ;
+        schema:issueNumber    "125"^^xsd:integer ;
+        schema:volumeNumber   "11"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 11 Issue 125"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb3423447f  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb3423447f> ;
         schema:datePublished  "2006-12"^^xsd:gYearMonth ;
-        schema:issueNumber    "63"^^xsd:int ;
-        schema:volumeNumber   "6"^^xsd:int ;
+        schema:issueNumber    "63"^^xsd:integer ;
+        schema:volumeNumber   "6"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 6 Issue 63"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -567,8 +567,8 @@ wechi:p-yeelel  schema:subjectOf  wechi:bb2979760x ;
 wechi:bb1682819r  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb1682819r> ;
         schema:datePublished  "2010-09"^^xsd:gYearMonth ;
-        schema:issueNumber    "108"^^xsd:int ;
-        schema:volumeNumber   "9"^^xsd:int ;
+        schema:issueNumber    "108"^^xsd:integer ;
+        schema:volumeNumber   "9"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 9 Issue 108"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -627,16 +627,16 @@ wechi:p-langla  schema:subjectOf  wechi:bb79968672 ;
 wechi:bb50616813  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb50616813> ;
         schema:datePublished  "2002-04"^^xsd:gYearMonth ;
-        schema:issueNumber    "7"^^xsd:int ;
-        schema:volumeNumber   "1"^^xsd:int ;
+        schema:issueNumber    "7"^^xsd:integer ;
+        schema:volumeNumber   "1"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 1 Issue 7"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb50275599  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb50275599> ;
         schema:datePublished  "2007-10"^^xsd:gYearMonth ;
-        schema:issueNumber    "73"^^xsd:int ;
-        schema:volumeNumber   "7"^^xsd:int ;
+        schema:issueNumber    "73"^^xsd:integer ;
+        schema:volumeNumber   "7"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 7 Issue 73"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -651,8 +651,8 @@ wechi:p-chenyu  schema:subjectOf  wechi:bb50616813 ;
 wechi:bb4959299n  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb4959299n> ;
         schema:datePublished  "2011-05"^^xsd:gYearMonth ;
-        schema:issueNumber    "116"^^xsd:int ;
-        schema:volumeNumber   "10"^^xsd:int ;
+        schema:issueNumber    "116"^^xsd:integer ;
+        schema:volumeNumber   "10"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 10 Issue 116"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -675,8 +675,8 @@ wechi:p-chewst  schema:subjectOf  wechi:bb8713593f ;
 wechi:bb85770740  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb85770740> ;
         schema:datePublished  "2006-03"^^xsd:gYearMonth ;
-        schema:issueNumber    "54"^^xsd:int ;
-        schema:volumeNumber   "5"^^xsd:int ;
+        schema:issueNumber    "54"^^xsd:integer ;
+        schema:volumeNumber   "5"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 5 Issue 54"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -693,8 +693,8 @@ wechi:p-wuling  schema:subjectOf  wechi:bb59149362 ;
 wechi:bb71094858  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb71094858> ;
         schema:datePublished  "2005-11"^^xsd:gYearMonth ;
-        schema:issueNumber    "50"^^xsd:int ;
-        schema:volumeNumber   "5"^^xsd:int ;
+        schema:issueNumber    "50"^^xsd:integer ;
+        schema:volumeNumber   "5"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 5 Issue 50"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -745,8 +745,8 @@ wechi:p-lamcar  schema:subjectOf  wechi:bb3423447f ;
 wechi:bb2945625b  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb2945625b> ;
         schema:datePublished  "2005-10"^^xsd:gYearMonth ;
-        schema:issueNumber    "49"^^xsd:int ;
-        schema:volumeNumber   "5"^^xsd:int ;
+        schema:issueNumber    "49"^^xsd:integer ;
+        schema:volumeNumber   "5"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 5 Issue 49"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -800,16 +800,16 @@ wechi:bb3286929k  schema:name  " We Chinese in America Magazine, Volume 10 Issue
         schema:isPartOf       wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb3286929k> ;
         schema:datePublished  "2011-07"^^xsd:gYearMonth ;
-        schema:issueNumber    "118"^^xsd:int ;
-        schema:volumeNumber   "10"^^xsd:int ;
+        schema:issueNumber    "118"^^xsd:integer ;
+        schema:volumeNumber   "10"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 10 Issue 118"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb8713593f  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb8713593f> ;
         schema:datePublished  "2003-08"^^xsd:gYearMonth ;
-        schema:issueNumber    "23"^^xsd:int ;
-        schema:volumeNumber   "2"^^xsd:int ;
+        schema:issueNumber    "23"^^xsd:integer ;
+        schema:volumeNumber   "2"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 2 Issue 23"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -827,8 +827,8 @@ wechi:p-tsuang  schema:name   "庄明哲"@zh-Hans ;
 wechi:bb7416659z  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb7416659z> ;
         schema:datePublished  "2011-08"^^xsd:gYearMonth ;
-        schema:issueNumber    "119"^^xsd:int ;
-        schema:volumeNumber   "10"^^xsd:int ;
+        schema:issueNumber    "119"^^xsd:integer ;
+        schema:volumeNumber   "10"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 10 Issue 119"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -838,24 +838,24 @@ wechi:bb7416659z  schema:isPartOf  wechi:bb0420000x ;
 wechi:bb4242567t  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb4242567t> ;
         schema:datePublished  "2007-05"^^xsd:gYearMonth ;
-        schema:issueNumber    "68"^^xsd:int ;
-        schema:volumeNumber   "6"^^xsd:int ;
+        schema:issueNumber    "68"^^xsd:integer ;
+        schema:volumeNumber   "6"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 6 Issue 68"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb16828124  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb16828124> ;
         schema:datePublished  "2002-08"^^xsd:gYearMonth ;
-        schema:issueNumber    "11"^^xsd:int ;
-        schema:volumeNumber   "1"^^xsd:int ;
+        schema:issueNumber    "11"^^xsd:integer ;
+        schema:volumeNumber   "1"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 1 Issue 11"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb15804298  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb15804298> ;
         schema:datePublished  "2011-10"^^xsd:gYearMonth ;
-        schema:issueNumber    "121"^^xsd:int ;
-        schema:volumeNumber   "11"^^xsd:int ;
+        schema:issueNumber    "121"^^xsd:integer ;
+        schema:volumeNumber   "11"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 11 Issue 121"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -865,8 +865,8 @@ wechi:bb15804298  schema:isPartOf  wechi:bb0420000x ;
 wechi:bb6836445b  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb6836445b> ;
         schema:datePublished  "2001-11"^^xsd:gYearMonth ;
-        schema:issueNumber    "2"^^xsd:int ;
-        schema:volumeNumber   "1"^^xsd:int ;
+        schema:issueNumber    "2"^^xsd:integer ;
+        schema:volumeNumber   "1"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 1 Issue 2"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -902,8 +902,8 @@ wechi:p-taipau  schema:sameAs  <https://lccn.loc.gov/n88244465> ;
 wechi:bb8406425g  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb8406425g> ;
         schema:datePublished  "2004-05"^^xsd:gYearMonth ;
-        schema:issueNumber    "32"^^xsd:int ;
-        schema:volumeNumber   "3"^^xsd:int ;
+        schema:issueNumber    "32"^^xsd:integer ;
+        schema:volumeNumber   "3"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 3 Issue 32"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -913,8 +913,8 @@ wechi:bb8406425g  schema:isPartOf  wechi:bb0420000x ;
 wechi:bb0454136q  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb0454136q> ;
         schema:datePublished  "2005-07"^^xsd:gYearMonth ;
-        schema:issueNumber    "46"^^xsd:int ;
-        schema:volumeNumber   "4"^^xsd:int ;
+        schema:issueNumber    "46"^^xsd:integer ;
+        schema:volumeNumber   "4"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 4 Issue 46"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -934,8 +934,8 @@ wechi:p-hodavi  schema:subjectOf  wechi:bb59149341 ;
 wechi:bb6324501v  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb6324501v> ;
         schema:datePublished  "2012-01"^^xsd:gYearMonth ;
-        schema:issueNumber    "124"^^xsd:int ;
-        schema:volumeNumber   "11"^^xsd:int ;
+        schema:issueNumber    "124"^^xsd:integer ;
+        schema:volumeNumber   "11"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 11 Issue 124"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -977,8 +977,8 @@ wechi:p-lingja  schema:subjectOf  wechi:bb96692321 ;
 wechi:bb58125473  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb58125473> ;
         schema:datePublished  "2010-10"^^xsd:gYearMonth ;
-        schema:issueNumber    "109"^^xsd:int ;
-        schema:volumeNumber   "10"^^xsd:int ;
+        schema:issueNumber    "109"^^xsd:integer ;
+        schema:volumeNumber   "10"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 10 Issue 109"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -991,8 +991,8 @@ wechi:bb58125473  schema:isPartOf  wechi:bb0420000x ;
 wechi:bb0078705g  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb0078705g> ;
         schema:datePublished  "2007-04"^^xsd:gYearMonth ;
-        schema:issueNumber    "67"^^xsd:int ;
-        schema:volumeNumber   "6"^^xsd:int ;
+        schema:issueNumber    "67"^^xsd:integer ;
+        schema:volumeNumber   "6"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 6 Issue 67"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -1008,8 +1008,8 @@ wechi:p-guotin  schema:subjectOf  wechi:bb0829561p ;
 wechi:bb2979760x  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb2979760x> ;
         schema:datePublished  "2012-05"^^xsd:gYearMonth ;
-        schema:issueNumber    "128"^^xsd:int ;
-        schema:volumeNumber   "11"^^xsd:int ;
+        schema:issueNumber    "128"^^xsd:integer ;
+        schema:volumeNumber   "11"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 11 Issue 128"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -1019,8 +1019,8 @@ wechi:bb2979760x  schema:isPartOf  wechi:bb0420000x ;
 wechi:bb4686261x  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb4686261x> ;
         schema:datePublished  "2012-12"^^xsd:gYearMonth ;
-        schema:issueNumber    "135"^^xsd:int ;
-        schema:volumeNumber   "12"^^xsd:int ;
+        schema:issueNumber    "135"^^xsd:integer ;
+        schema:volumeNumber   "12"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 12 Issue 135"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -1054,24 +1054,24 @@ wechi:p-wangle  schema:subjectOf  wechi:bb88159891 ;
 wechi:bb5607762c  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb5607762c> ;
         schema:datePublished  "2004-10"^^xsd:gYearMonth ;
-        schema:issueNumber    "37"^^xsd:int ;
-        schema:volumeNumber   "4"^^xsd:int ;
+        schema:issueNumber    "37"^^xsd:integer ;
+        schema:volumeNumber   "4"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 4 Issue 37"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb0488267x  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb0488267x> ;
         schema:datePublished  "2008-10"^^xsd:gYearMonth ;
-        schema:issueNumber    "85"^^xsd:int ;
-        schema:volumeNumber   "8"^^xsd:int ;
+        schema:issueNumber    "85"^^xsd:integer ;
+        schema:volumeNumber   "8"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 8 Issue 85"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb02834871  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb02834871> ;
         schema:datePublished  "2009-05"^^xsd:gYearMonth ;
-        schema:issueNumber    "92"^^xsd:int ;
-        schema:volumeNumber   "8"^^xsd:int ;
+        schema:issueNumber    "92"^^xsd:integer ;
+        schema:volumeNumber   "8"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 8 Issue 92"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -1093,8 +1093,8 @@ wechi:p-chiang  schema:subjectOf  wechi:bb4686261x ;
 wechi:bb9396199z  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb9396199z> ;
         schema:datePublished  "2006-08"^^xsd:gYearMonth ;
-        schema:issueNumber    "59"^^xsd:int ;
-        schema:volumeNumber   "5"^^xsd:int ;
+        schema:issueNumber    "59"^^xsd:integer ;
+        schema:volumeNumber   "5"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 5 Issue 59"@en ;
         rdf:type              schema:CreativeWork .
 
@@ -1147,16 +1147,16 @@ wechi:p-wangji   rdf:type  schema:Person ;
 wechi:bb42425648  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb42425648> ;
         schema:datePublished  "2004-04"^^xsd:gYearMonth ;
-        schema:issueNumber    "31"^^xsd:int ;
-        schema:volumeNumber   "3"^^xsd:int ;
+        schema:issueNumber    "31"^^xsd:integer ;
+        schema:volumeNumber   "3"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 3 Issue 31"@en ;
         rdf:type              schema:CreativeWork .
 
 wechi:bb7587303h  schema:isPartOf  wechi:bb0420000x ;
         schema:url            <https://library.ucsd.edu/dc/object/bb7587303h> ;
         schema:datePublished  "2003-12"^^xsd:gYearMonth ;
-        schema:issueNumber    "27"^^xsd:int ;
-        schema:volumeNumber   "3"^^xsd:int ;
+        schema:issueNumber    "27"^^xsd:integer ;
+        schema:volumeNumber   "3"^^xsd:integer ;
         schema:name           "We Chinese in America Magazine, Volume 3 Issue 27"@en ;
         rdf:type              schema:CreativeWork .
 
